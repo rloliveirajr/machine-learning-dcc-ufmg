@@ -1,0 +1,34 @@
+#summary This is an efficient implementation os the algorithm LAC published in the paper "Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006.".
+
+= LAC in C++ (Eclat and Diff Eclat) =
+
+This is an efficient implementation of the algorithm LAC published in the paper [http://www.dcc.ufmg.br/~adrianov/papers/ICDM06/Veloso-icdm06.pdf Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006].
+LAC is a machine learning algorithm based on association rules. 
+The algorithm was implementad in C++ and used the algorithms Elact and Diff Eclat to generate rules. 
+To compile the file type make. In the folder input the are two files to test the implementation. To run the test type make run. To see an explanation of the program's argument type make help.
+
+The basic command to run the algorithm is: 
+{{{
+	./lazy -i traningFile -t testFile -m 3 -c 0.001 -s 1 -e 500000 
+
+}}}
+
+Where _traningFile_ is the path of file containing the instances of traning, _testFile_ is the path of file containing the instances of test, _-m 3_ is the maximum number of attributes a rule can have, _-c 0.001_ is the minimum confidence's value and _-s 1_ is the minimum support's value that a rule must achieve to not be discarted and _-e 500000_  is the size of the rules's cache.
+
+===Example of training file===
+
+{{{
+0 CLASS=1 w[0]=esporte w[1]=jovem w[2]=M w[3]=nao
+1 CLASS=0 w[0]=esporte w[1]=adulto w[2]=M w[3]=nao
+2 CLASS=0 w[0]=utilitário w[1]=adulto w[2]=F w[3]=nao
+3 CLASS=1 w[0]=popular w[1]=adulto w[2]=M w[3]=sim
+4 CLASS=1 w[0]=esporte w[1]=idoso w[2]=M w[3]=nao
+5 CLASS=0 w[0]=popular w[1]=adulto w[2]=F w[3]=nao
+6 CLASS=1 w[0]=esporte w[1]=idoso w[2]=F w[3]=sim
+7 CLASS=1 w[0]=popular w[1]=jovem w[2]=M w[3]=sim
+8 CLASS=1 w[0]=utilitário w[1]=idoso w[2]=M w[3]=sim
+9 CLASS=0 w[0]=popular w[1]=jovem w[2]=M w[3]=nao
+
+}}}
+  
+
