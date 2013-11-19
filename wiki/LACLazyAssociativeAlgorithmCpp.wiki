@@ -7,7 +7,8 @@
 This is an efficient implementation of the algorithm LAC published in the paper [http://www.dcc.ufmg.br/~adrianov/papers/ICDM06/Veloso-icdm06.pdf Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006].
 LAC is a machine learning algorithm based on association rules. 
 The algorithm was implementad in C++ and used the algorithms Elact and Diff Eclat to generate the set of rules. 
-To compile the file type make. In the folder input the are two files to test the implementation. To run the test type make run. To see an explanation of the program's argument type make help.
+To compile the file type make. In the folder input the are two files to test the implementation. To run the test type make run. To see an explanation of the program's argument type make help. If you need to discretize your data you can use
+the algorithm  [MultiIntervalDiscretization].
 
 The basic command to run the algorithm is: 
 {{{
