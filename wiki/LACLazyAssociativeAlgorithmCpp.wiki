@@ -1,6 +1,7 @@
 #summary This is an efficient implementation os the algorithm LAC published in the paper "Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006.".
 
 = LAC in C++ (Eclat and Diff Eclat) =
+[http://code.google.com/p/machine-learning-dcc-ufmg/downloads/detail?name=lac-itamar-01-11-2012.tar.bz2&can=2&q= DOWNLOAD]
 
 This is an efficient implementation of the algorithm LAC published in the paper [http://www.dcc.ufmg.br/~adrianov/papers/ICDM06/Veloso-icdm06.pdf Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006].
 LAC is a machine learning algorithm based on association rules. 
@@ -13,7 +14,7 @@ The basic command to run the algorithm is:
 
 }}}
 
-Where _traningFile_ is the path of file containing the instances of traning, _testFile_ is the path of file containing the instances of test, _-m 3_ is the maximum number of attributes a rule can have, _-c 0.001_ is the minimum confidence's value and _-s 1_ is the minimum support's value that a rule must achieve to not be discarted and _-e 500000_  is the size of the rules's cache.
+Where _traningFile_ is the path of file containing the instances of traning, _testFile_ is the path of file containing the instances of test, _-m 3_ is the maximum number of attributes a rule can have, _-c 0.001_ is the minimum confidence's value and _-s 1_ is the minimum support's value that a rule must achieve to not be discarded and _-e 500000_  is the size of the rule's cache.
 
 ===Example of training file===
 
@@ -31,4 +32,14 @@ Where _traningFile_ is the path of file containing the instances of traning, _te
 
 }}}
   
+In the training file the first column is the identifier of the instance, the second is the class and the others are the attributes. The number of attributes per instance can be different and if the position of the attribute does not matter you can remove the brackets. Normally, in text applications the attributes is used without brackets, ex.: w=word.
+===Example of test file===
 
+{{{
+10 CLASS=0 w[0]=popular w[1]=jovem w[2]=F w[3]=nao
+11 CLASS=0 w[0]=popular w[1]=adulto w[2]=F w[3]=nao
+12 CLASS=1 w[0]=utilitário w[1]=idoso w[2]=M w[3]=sim
+13 CLASS=3 w[0]=bla w[1]=bla w[2]=bla w[3]=bla
+}}}
+
+In the test file you have to put the class of the instance, but it is not used by the classifier. Then, you can put any value here. But, if it is the correct label, it will be easier to check the behavior of the algorithm.
