@@ -1,6 +1,6 @@
 #summary This is an efficient implementation os the algorithm LAC published in the paper "Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006.".
 
-= Lazy Associative Classification, LAC in C++ (Eclat and Diff Eclat) =
+= Lazy Associative Classification (C++, Eclat and Diff Eclat) =
 [http://code.google.com/p/machine-learning-dcc-ufmg/downloads/detail?name=lac-itamar-01-11-2012.tar.bz2&can=2&q= DOWNLOAD]
 
 This is an efficient implementation of the algorithm LAC published in the paper [http://www.dcc.ufmg.br/~adrianov/papers/ICDM06/Veloso-icdm06.pdf Lazy Associative Classification. A. Veloso, W. Meira and M. Zaki. ICDM 2006].
