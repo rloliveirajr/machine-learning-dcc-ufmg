@@ -9,8 +9,10 @@
 Codes and datasets used in the [https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxpdGFtYXJoYXRhfGd4OjM1NTg5YTBlNGY4Y2Q1ZWY Itamar's dissertation] and in the paper 
 [http://seer.lcc.ufmg.br/index.php/jidm/article/view/239 Hata, I.; Veloso, A. & Ziviani, N. (2013). Learning Accurate and Interpretable Classifiers Using Optimal Multi-Criteria Rules. Information and Data Management, 4(3):204--219.].
 
-In addition of the software presented in this page, there are other that were 
-implemented:  LACLazyAssociativeAlgorithmCpp , MultiIntervalDiscretization and ParetoFrontier.
+In addition of the software presented in this page, there are other that we 
+implemented:  [http://code.google.com/p/machine-learning-dcc-ufmg/wiki/LACLazyAssociativeAlgorithmCpp LAC-cpp] , MultiIntervalDiscretization and ParetoFrontier.
+
+We provided the codes and the datasets here to facilitate the reproducibility of our work. The datasets have already been discretized and are in LAC's format.
 
 
 ===Abstract===
