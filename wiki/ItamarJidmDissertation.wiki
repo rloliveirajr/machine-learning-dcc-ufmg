@@ -10,7 +10,7 @@ Codes and datasets used in the [https://docs.google.com/viewer?a=v&pid=sites&src
 [http://seer.lcc.ufmg.br/index.php/jidm/article/view/239 Hata, I.; Veloso, A. & Ziviani, N. (2013). Learning Accurate and Interpretable Classifiers Using Optimal Multi-Criteria Rules. Information and Data Management, 4(3):204--219.].
 
 In addition of the software presented in this page, there are other that were 
-implemented: LACLazyAssociativeAlgorithmCpp, MultiIntervalDiscretization and ParetoFrontier.
+implemented:  LACLazyAssociativeAlgorithmCpp , MultiIntervalDiscretization and ParetoFrontier.
 
 
 ===Abstract===
