@@ -32,5 +32,5 @@ classifiers that are extremely readable (i.e., allow interpretability of the cla
 
 ===Other Softwares===
 
-In addition to the softwares presented in this page, there are other that we 
+In addition to the softwares presented in this page, there are others that we 
 implemented:  [http://code.google.com/p/machine-learning-dcc-ufmg/wiki/LACLazyAssociativeAlgorithmCpp LAC-cpp] , MultiIntervalDiscretization and ParetoFrontier.
