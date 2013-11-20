@@ -2,7 +2,7 @@
 #labels Featured
 
 = Multi-Interval Discretization of Continuous-Valued Attributes for Classification Learning (C++) =
-[http://code.google.com/p/machine-learning-dcc-ufmg/downloads/detail?name=discretize-itamar-19-11-2013.tar.bz2 DOWNLOAD]
+[http://machine-learning-dcc-ufmg.googlecode.com/files/discretize-itamar-19-11-2013.tar.bz2 DOWNLOAD]
 
 This is an implementation of the algorithm presented in the paper:
 
