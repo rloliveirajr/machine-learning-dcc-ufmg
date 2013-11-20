@@ -1,4 +1,5 @@
 #summary Codes and databases used in the paper JIDM and in Itamar's dissertation.
+#labels Featured
 
 = JIDM and in Itamar's Dissertation =
 [http://machine-learning-dcc-ufmg.googlecode.com/files/datasets-itamar-20-11-2013.tar.bz2 Download code and datasets]
