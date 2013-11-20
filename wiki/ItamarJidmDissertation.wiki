@@ -8,12 +8,7 @@
 
 Codes and datasets used in the [https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxpdGFtYXJoYXRhfGd4OjM1NTg5YTBlNGY4Y2Q1ZWY Itamar's dissertation] and in the paper 
 [http://seer.lcc.ufmg.br/index.php/jidm/article/view/239 Hata, I.; Veloso, A. & Ziviani, N. (2013). Learning Accurate and Interpretable Classifiers Using Optimal Multi-Criteria Rules. Information and Data Management, 4(3):204--219.].
-
-In addition of the software presented in this page, there are other that we 
-implemented:  [http://code.google.com/p/machine-learning-dcc-ufmg/wiki/LACLazyAssociativeAlgorithmCpp LAC-cpp] , MultiIntervalDiscretization and ParetoFrontier.
-
 We provided the codes and the datasets here to facilitate the reproducibility of our work. The datasets have already been discretized and are in LAC's format.
-
 
 ===Abstract===
 The Occam’s Razor principle has become the basis for many Machine Learning algorithms, under the
@@ -33,3 +28,9 @@ the entire set of rules or even a condensed representation (i.e., closed rules).
 benchmark data as well as recent data from actual application scenarios, followed by an extensive set of significance
 tests, reveal that the proposed strategy decreases the number of rules by up to two orders of magnitude and produces
 classifiers that are extremely readable (i.e., allow interpretability of the classification results) without hurting accuracy.
+
+
+===Other Softwares===
+
+In addition of the software presented in this page, there are other that we 
+implemented:  [http://code.google.com/p/machine-learning-dcc-ufmg/wiki/LACLazyAssociativeAlgorithmCpp LAC-cpp] , MultiIntervalDiscretization and ParetoFrontier.
