@@ -1,9 +1,7 @@
 #summary Codes and databases of used in the paper JIDM and in Itamar's dissertation.
 
-= JIDM and in Itamar's Dissertation 
+= JIDM and in Itamar's Dissertation =
 
 
 
-[http://seer.lcc.ufmg.br/index.php/jidm/article/view/239#! Hata, I.; Veloso, A. & Ziviani, N. (2013). Learning Accurate and Interpretable Clas-
-sifiers Using Optimal Multi-Criteria Rules. Information and Data Management,
-4(3):204--219.]
+[http://seer.lcc.ufmg.br/index.php/jidm/article/view/239 Hata, I.; Veloso, A. & Ziviani, N. (2013). Learning Accurate and Interpretable Classifiers Using Optimal Multi-Criteria Rules. Information and Data Management, 4(3):204--219.]
