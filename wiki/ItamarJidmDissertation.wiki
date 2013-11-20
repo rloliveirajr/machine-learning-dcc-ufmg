@@ -1,4 +1,4 @@
-#summary Codes and databases of used in the paper JIDM and in Itamar's dissertation.
+#summary Codes and databases used in the paper JIDM and in Itamar's dissertation.
 
 = JIDM and in Itamar's Dissertation =
 
